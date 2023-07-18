@@ -1,0 +1,41 @@
+body {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+placeholder, input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004fc4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Times New Roman";
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label, th, td, tr {
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Times New Roman";
+}
+
+input:hover {
+    background-color: #0e2954;
+}
+
+input:active {
+    background-color: #ff0000;
+}
